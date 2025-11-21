@@ -50,7 +50,7 @@ const CONFIG = {
     MAX_MESSAGE_LENGTH: 15000,
     MAX_ROOM_CAPACITY: 5,
     BASE_MAX_ROOMS: 15, // Starting room limit
-    ROOM_SCALING_INCREMENT: 5, // How many rooms to add each scaling
+    ROOM_SCALING_INCREMENT: 8, // How many rooms to add each scaling
     MAX_CONNECTIONS_PER_IP: 30,
     SOCKET_MAX_REQUESTS_WINDOW: 1,
     SOCKET_MAX_REQUESTS_PER_WINDOW: 75,
@@ -712,6 +712,7 @@ const allowedOrigins = [
   "http://localhost:3000",
   "http://127.0.0.1:3000",
   "https://classic.talkomatic.co",
+  "https://probioticz.github.io"
 ];
 
 const corsOptions = {
